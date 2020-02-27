@@ -1,0 +1,61 @@
+div{
+    border: 1px solid black;
+    margin: 2px;
+}
+#robot{
+    width: 300px;
+    height: 500px;
+}
+#head{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 13%;
+    border-radius: 60% 60% 0 0 ;
+    transition-duration: 2s;
+    background-color: green;
+}
+#body{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+#legs{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#le,#re{
+    width: 10%;
+    height: 10%;
+    background-color: green
+}
+#main{
+    width:  60%;
+    height: 100%;
+    display: flex;
+    background-color: green;
+}
+#ll,#rl{
+    width: 20%;
+    height: 90%;
+    border-radius: 30%;
+    background-color: green;
+}
+#la,#ra{
+    width: 10%;
+    height: 80%;
+    border-radius: 10px;     
+}
+#ll.hover{
+    transform: fotate(20deg)
+}
+#rl.hover{
+
+}
